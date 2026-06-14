@@ -1,0 +1,25 @@
+/* SELECTOR POR ATRIBUTO */
+img [src="arbolcorzon.jpg"]{
+    width: 100%;
+
+}
+
+/* SELECTOR POR DESCENDIENTE */
+ul li {
+    color: #666;
+}
+
+/* SELECTOR POR HIJO DIRECTO */
+li > em {
+    color: red;
+}
+
+/* SELECTOR ADYACENTE */
+h1 + p {
+    color: blue;
+}
+
+/* SELECTOR DE HERMANOS GENERALES */
+ h1 ~ p {
+    color: blue;
+ }
