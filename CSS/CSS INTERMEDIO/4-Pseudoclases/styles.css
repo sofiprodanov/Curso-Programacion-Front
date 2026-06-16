@@ -1,0 +1,99 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+
+/*CUANDO PASAMOS EL MOUSE POR ENCIMA DE H1*/
+h1:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/*MIENTRAS SE ESTE CLICKEANDO H1*/
+h1:active {
+    background-color: #999;
+    color: #fff;
+
+}
+
+/*SELECCIONANDO EL PRIMER LI*/
+li:first-child {
+    color: red;
+}
+
+/*SELECCIONANDO EL SEGUNDO Y TERCER AL N ELEMENTO LI*/
+li:nth-child(2) {
+    color: green;
+}
+
+li:nth-child(3) {
+    color: violet;
+}
+
+/*SELECCIONANDO EL ULTIMO LI*/
+li:last-child {
+    color: blue;
+}
+
+/*SELECCIONANDO CADA 3ER ELEMENTO LI*/
+li:nth-child(2n) {
+    color: greenyellow;
+}
+
+/*ES UN HIJO PERO NO MODIFICA PQ NO ES UN LI*/
+li:nth-child(3) {
+    color: white;
+}
+
+/*SOLO TOMA HERMANOS DEL ELEMENTO LI*/
+li:nth-of-type(5) {
+    color: white;
+}
+
+/*SELECCIONANDO LOS LI DENTRO DE ".LISTA" PERO QUE NO TENGAN LA CLASE "EXCLUIR*/
+.lista li:not(.excluir) {
+    color: white;
+}
+
+
+/* SI EL DIV TIENE CONTENIDO TIENE BORDE */
+div {
+    border: 2px solid black;
+}
+
+/*SI NO TIENE CONTENIDO EL DIV ESTA VACIO*/
+div:empty {
+    border: none;
+}
+
+
+/* SELECCIONA UN ELEMENTO CHECKEADO */
+input[type="checkbox"] {
+    margin: 50px;
+}
+
+input[type="checkbox"]:checked {
+    margin: 0px;
+}
+
+/*SELECCIONANDO ENLACES NO VISITADOS */
+a:link {
+    color: red;
+}
+
+/*SELECCIONANDO ENLACES VISITADOS */
+a:visited {
+    color: green;
+}
+
+/* SELECCIONANDO INPUT INVALIDOS */
+input:invalid {
+    color: red;
+}
+
+/* SELECCIONANDO INPUT VALIDOS */
+input:valid {
+    color: green;
+}

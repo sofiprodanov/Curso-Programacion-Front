@@ -1,0 +1,39 @@
+/* IS, WHERE Y HAS */
+section .elemento1,
+section .elemento2,
+section .elemento3 {
+    color: red;
+}
+
+
+/* IS */
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+
+/* WHERE */
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+
+
+/* HAS 8*/
+section:has(.elemento1) {
+    background-color: green;
+    color: white;
+}
+
+/* DOY ESTILO AL UL QUE ES CONTINUADO POR UN DIV */
+ul:has(+div) {
+    background-color: #000;
+}
+
+/* INPUT VALIDO */
+label:has(input:valid) {
+    color: greenyellow;
+}
+
+/* INPUT INVALIDO */
+label:has(input:invalid) {
+    color: red;
+}
