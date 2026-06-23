@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #999;
+
+}
+
+
+/* PARA ELEMENTO DE BLOQUE O DISPLAY BLOCK - ADMITE TODAS LAS PROPIEDADES DE MARGENES Y RELLENO/PADDING*/
+a {
+    background-color: red;
+    color: #fff;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    opacity: 0.6;
+    display: block;
+    
+}
+
+/* PARA ELEMENTO DE LINEA O DISPLAY INLINE - NO PERMITE MODIF ANCHO NI ALTO Y LOS MARGENES/RELLENOS SOLO FUNCIONA HORIZONTALMENTE NO VERTICAL*/
+
+p {
+    background-color: #000;
+    color: #fff;
+    display: inline;
+    margin: 5px;
+    padding: 20px;
+}
