@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #ededed;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*El contenedor con posicion relativa hace la pagina deje de ser punto de ref y pase a ser este contenedor */
+.contenedor {
+    border: 2px solid #000;
+    margin: 20px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #db7;
+    color: #fff;
+
+}
+
+/*si los valores de top, right, bottom, left fueran 0 y pongo un margin auto, la caja se centra de acuerdo a los margenes del contenedor*/
+.box--blue{
+    background-color: #48e;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.box--red {
+    background-color: #f64;
+}
