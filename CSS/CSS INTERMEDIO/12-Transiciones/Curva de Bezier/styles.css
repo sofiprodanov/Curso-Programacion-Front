@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #f00;
+    margin-top: 50px;
+    font-size: 60px;
+    transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier (.63,.11,.25,.89); /* se puede personalizar la curva de bezier con ayuda de la pagina*/
+    color: red;
+    position: relative;
+    left: 0;
+}
+
+body:hover .box{
+    background-color: blue;
+    left: 400px;
+}

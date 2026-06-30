@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, color; /*el color predeterminado es negro, pero puede ir cualquier otro color*/
+    transition-duration: 1s;
+    color: red;
+}
+
+.box:hover {
+    background-color: blue;
+    color: #fff;
+}
+
