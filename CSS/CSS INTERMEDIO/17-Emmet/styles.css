@@ -1,0 +1,17 @@
+header {
+    /* Se aplica a margin, padding, width, height */
+    margin: 10px; /* m10 */
+    margin: 10%; /* m10p */
+    margin: 10em; /* m10e */
+    margin: 10px 10px; /* m10-10 */
+    margin: 10% 10px; /* m10-10 */
+    border: 1px solid #000; /* bd, trae por defecto para completar */
+    padding: 10px; /* p10 */
+    width: 10px; /* w10 */
+    height: 10px; /* h10 */
+    color: #000; /* c,  o tambien c# */
+    color: #111; /* c#1 */
+    color: #121212; /* c#12 */
+    color: #423; /* c#432 */
+    background-color: #321; /* bgc#321 */
+}
