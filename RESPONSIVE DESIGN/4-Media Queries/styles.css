@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body {
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flex-item {
+    background-color: #ccc;
+    padding: 30px;
+    border: 1px solid #f00;
+    flex-grow: 1;
+
+}
+
+@media screen and (max-width:480px) {
+    .flexbox {
+        flex-direction: column;
+    }
+}
+
+/* el tamano de la letra se aplica solo para impresion */
+@media print {
+    body {
+        font-size: 24pt;
+    }
+}
