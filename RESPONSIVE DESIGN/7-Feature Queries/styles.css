@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+@supports (color: oklch(30% 0.2 30)) {
+    body {
+        color: oklch(80% 0.2 30)
+    }
+}
+
+@supports (display: grid) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@supports not (display: grid) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
