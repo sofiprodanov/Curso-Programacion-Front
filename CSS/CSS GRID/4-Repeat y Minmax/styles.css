@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ------------------ COLUMNAS--------------- */
+/* REPEAT () */
+/* .grid {
+    display: grid;
+    grid-template-columns: 200px repeat(4, 1fr);
+    grid-template-rows: 300px 200px;
+
+} */
+
+
+/* MINMAX () */
+/* .grid {
+    display: grid;
+    grid-template-columns: 200px 100px minmax(300px, 500px) ;
+    grid-template-rows: 300px 200px;
+} */
+
+
+/* COMBINADOS REPEAT Y MINMAX */
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 300px));
+    grid-template-rows: 300px 200px;
+} */
+
+
+/* ------------------ FILAS --------------- */
+.grid {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.grid-item {
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
